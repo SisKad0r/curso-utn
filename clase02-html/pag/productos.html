@@ -11,10 +11,10 @@
     <header>
         <h1>Soy el titulo</h1>
     </header>
-
+    <hr>
 <!-- <ul> lista desordenada --/-/-- <ol> lista ordenada -->
 <!-- " ./ " nos sirve para navegar entre nuestros archivos -->
-<!--  -->
+<!-- <strong> => escribe en negrita -->
 
     <nav>
         <h2>Soy la barra de navegacion</h2>
@@ -23,16 +23,59 @@
             <!-- item list -->
             <li>
             <!-- anclas: permite la navegacion -->
-                <a href="./index.html">Home</a>
+                <a href="../index.html">Home</a>
             </li>
             <li>
-                <a href="./pag/sucursales.html">Scurusales</a>
+                <a href="./sucursales.html">Scurusales</a>
             </li>
             <li>
-                <a href="./pag/productos.html">Producto</a>
+                <a href="./productos.html">Producto</a>
             </li>
         </ul>
     </nav>
-    
+    <hr>
+    <main>
+        
+        <h2>
+            Soy la pagina de Producto - formulario
+        </h2>
+
+        <!-- formulario -->
+        <!-- puede ser action o method (atributos) -->
+        <form id="formulario">
+            <!-- label sirve para saber que tiene que poner -->
+            <label for="name">Nombre</label>
+            <input type="text" id:"usuario">
+            <br>
+            <label for="pass">Contraseña</label>
+            <input type="password" id:"contraseña">
+            <br>
+            <label for="nacimiento">Fecha de nacicmiento</label>
+            <input type="data" id:"edad">
+            <br>
+            <input type="button" value="Enviar">
+            <br>
+            <label for="">Masculino</label>
+            <input type="radio" value="Masculino">
+            <br>
+            <label for="">Recordarme</label>
+            <input type="checkbox">
+            <br>
+            <label for="">Escribir aqui</label>
+            <input type="text-area">
+            <br>
+        </form>
+
+    </main>
+    <hr>
+    <footer>
+        <address>
+            Avellaneda, Bs As
+        </address>
+        <p>
+            <a href="mailto:ventas@gmail.com"></a>
+        </p>
+    </footer>
+
 </body>
 </html>
