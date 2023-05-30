@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(#00ff62,#ff00ff);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font
+}
+
+/* estilo encabezado el que tengo aca colgado */
+header {
+    background-color: #ff00ff;
+    color: #00ff62;
+    font-size: 30px;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* estilo de la barra de navegacion, alla estan navegando en ella */
+nav {
+    background: #00ff62;
+    padding: 30px;
+
+}
+nav ul {
+    list-style: none; /* Borra los puntito de la lista */
+    font-size: 20px;
+    font-weight: bold; /* Hace negrita las letras    */
+    margin: 0;
+    padding: 0;
+    display: inline; /* DIspley = la forma que se ve / inline = que se vea en linea */
+    justify-content: space-around; /* separa los elementos */
+    text-decoration: none;
+}
+nav li {
+    margin: 0;
+    padding: 0;
+}
+.nav-list a {
+    text-decoration: none;
+}
